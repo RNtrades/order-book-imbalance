@@ -1,5 +1,7 @@
 # Order Book Imbalance Predictor
 
+**[▶ Live demo](https://rntrades.github.io/order-book-imbalance/)** - real-time BTC/USD order book heatmap and paper predictions, running in your browser.
+
 ![Liquidity heatmap](results/heatmap.png)
 
 Streams a live BTC/USD order book from Kraken's free public websocket, measures how lopsided buyers vs sellers are, and tests whether that imbalance predicts the next price move, including after spread and fees.
